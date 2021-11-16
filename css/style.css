@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(245, 250, 217),rgb(63, 99, 7));
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    top: 0;
+    width: 31%;
+    border-right: 2px solid #ada5a5;
+}
+
+.nav-left i{
+    width: 25px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ada5a5;
+}
+.nav-left .search-box {
+    border-right: 1px solid #5a5a5a;
+    padding-left: 5px;
+}
+.nav-left #menu{
+    width: 30px;   
+}
+
+.nav-left .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px; 
+    padding: 8px 10px;
+    border-radius: 25px;
+}
+.nav-left .search-box input{
+    width: 290px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    
+}
+.nav-left a img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.left-container .sidebar{
+    padding: 10px ;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    top: 0;
+    width: 31%;
+    height: 100%;
+}
+.sidebar .chats{
+    margin-bottom: 15px;
+  
+}
+.sidebar .chats a{
+    padding: 11.7px;
+   
+}
+.chats .all{
+    border-bottom: 3px solid #538bd4;
+    color: #538bd4;
+    font-weight: bold;
+}
+.chats a{
+    color:#999797;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sidebar .chats a span{
+    border: 1px solid #ccc;
+    border-radius: 50%; 
+    padding: 2px;
+    background: #ccc;
+    color:#fff;
+    margin-left: 5px;
+}
+.shortcut-links a img{
+    width: 55px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.shortcut-links a p{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.shortcut-links a span{
+    font-size: 15px;
+    margin-top: 35px;
+    margin-left: -30px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a:hover{
+    background-color: #e4e0e0;
+    width: 400px;
+    border-radius: 12px;
+}
+.shortcut-links div{
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-radius: 50%;
+    color: #fff;
+    padding: 3px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+
+.shortcut-link a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-link a i{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.nav-middle p{
+    margin-right: 630px;
+    font-weight: 700;
+}
+.nav-middle span{
+    font-size: 15px;
+    color: #999797;
+}
+.right-container .container{
+    float: right;
+}
+.container .p1{
+    display: block;
+}
+.div-flex{
+    display: flex;
+    margin-left: 10px;  
+}
+section{
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    margin-top: -76.5%;
+    height: 70px;
+    width: 69%;
+    float: right;
+}
+.nav-right a img{
+    width: 34%;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.nav-right p{
+    padding-top: 5px;
+    margin-left: -60px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.nav-right span{
+    padding-top: 25px;
+    margin-top: 10px;
+    margin-left: -35px;
+    font-size: 15px; 
+    color: #ada5a5;
+}
+section .icons i{
+   padding: 20px;
+   color: #ada5a5;
+   
+}
+.right-container{
+   padding-left: 35%;
+   padding-right: 2%;
+   margin-top: -65%;  
+}
+.content p{
+    border: 2px solid #999797;
+    background-color: #fff;
+    width: 35%;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.content{
+    padding: 50px;
+}
+.content i{
+    border: 2px solid #999797;
+    background-color: #fff;
+    font-size: 16px;
+    margin-left: 60%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media(max-width:1200px){
+    nav{
+        width: 40%;
+    }
+    .left-container .sidebar{
+        width: 40%;
+    }
+ }
+@media(max-width:1060px){
+    nav{
+        width: 43%;
+    }
+    .left-container .sidebar{
+        width: 43%;
+    }
+ }
+ @media(max-width:750px){
+    nav{
+        width: 55%;
+    }
+    .left-container .sidebar{
+        width: 55%;
+    }
+    .sidebar .chats a{
+       padding: 8px;
+    }
+    .shortcut-links a:hover{
+        width: 100%;
+    }
+ }
+ @media(max-width:680px){
+    nav{
+        width: 75%;
+    }
+    .left-container .sidebar{
+        width: 75%;
+    }
+ }
+ @media(max-width:720px){
+    nav{
+        width: 60%;
+    }
+    .left-container .sidebar{
+        width: 60%;
+    }
+ }
+
+ @media(max-width:590px){
+    nav{
+        width: 80%;
+        border-right: none;
+    }
+    .left-container .sidebar{
+        width: 80%;
+    }
+    .sidebar .chats a{
+        width: 80%;
+    }
+    .div-flex{
+        display: none;
+    }
+    .right-container{
+        display: none;
+    }
+ }
+@media(max-width:500px){
+   nav{
+       width: 100%;
+       border-right: none;
+   }
+   .left-container .sidebar{
+       width: 100%;
+   }
+   .sidebar .chats a{
+    font-size: 12px;
+    font-family: "arial";
+    padding: 7px;
+   }
+   .sidebar .chats a span{
+      font-size: 10px;
+   }
+   .div-flex{
+       display: none;
+   }
+  .right-container{
+       display: none;
+   }
+  .shortcut-links a img{
+      width: 40px;
+      margin-right: 5px;
+      margin-left: 2px;
+  }
+  .shortcut-links a p{
+      font-size: 12px;
+  }
+  .shortcut-links a span{
+      font-size: 12px;
+      padding-left: 5px;
+  }
+  .shortcut-links a div{
+      font-size: 10px;
+  }
+  .search-box{
+      width: 70%;
+  }
+}
+ 
